@@ -21,8 +21,12 @@ header {
     margin-bottom: 20px;
 }
 
-h1, h2 {
+h1 {
     color: #e5e5e5;
+}
+
+h2 {
+    color: #14213d;
 }
 
 section {
