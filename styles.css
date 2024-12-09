@@ -14,15 +14,15 @@ body {
 }
 
 header {
-    background-color: #32c5ff;
-    color: #fff;
+    background-color: #e5e5e5;
+    color: #e5e5e5;
     text-align: center;
     padding: 1rem;
     margin-bottom: 20px;
 }
 
 h1, h2 {
-    color: #333;
+    color: #14213d;
 }
 
 section {
@@ -61,7 +61,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #333;
+    background-color: #fca311;
     color: #fff;
     padding: 0.5rem;
     border: none;
@@ -70,5 +70,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #e5e5e5;
 }
