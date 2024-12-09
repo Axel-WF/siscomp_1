@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <h1>Hola mundo</h1>
- 
+    <div class="container">
+        <header>
+            <h1>Bienvenidos a la pagina de ejemplo</h1>
+        </header>
+        
+        <section id="welcome">
+            <h2>Bienvenidos!</h2>
+            <p>Página de ejemplo con Inicio, galería de fotos y forma de contacto.</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="/placeholder.svg?height=200&width=200" alt="Image 1">
+                <img src="/placeholder.svg?height=200&width=200" alt="Image 2">
+                <img src="/placeholder.svg?height=200&width=200" alt="Image 3">
+                <img src="/placeholder.svg?height=200&width=200" alt="Image 4">
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Forma de Contacto</h2>
+            <form>
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo" required>
+                <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
