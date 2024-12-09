@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #e5e5e5;
+    background-color: #14213d;
     color: #e5e5e5;
     text-align: center;
     padding: 1rem;
@@ -22,7 +22,7 @@ header {
 }
 
 h1, h2 {
-    color: #14213d;
+    color: #e5e5e5;
 }
 
 section {
